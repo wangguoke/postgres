@@ -2437,4 +2437,17 @@
   amoprighttype => 'point', amopstrategy => '7', amopopr => '@>(box,point)',
   amopmethod => 'brin' },
 
+# newtype
+
+{ amopfamily => 'btree/newtype_ops', amoplefttype => 'newtype', amoprighttype => 'newtype',
+  amopstrategy => '1', amopopr => '<(newtype,newtype)', amopmethod => 'btree' },
+{ amopfamily => 'btree/newtype_ops', amoplefttype => 'newtype', amoprighttype => 'newtype',
+  amopstrategy => '2', amopopr => '<=(newtype,newtype)', amopmethod => 'btree' },
+{ amopfamily => 'btree/newtype_ops', amoplefttype => 'newtype', amoprighttype => 'newtype',
+  amopstrategy => '3', amopopr => '=(newtype,newtype)', amopmethod => 'btree' },
+{ amopfamily => 'btree/newtype_ops', amoplefttype => 'newtype', amoprighttype => 'newtype',
+  amopstrategy => '4', amopopr => '>=(newtype,newtype)', amopmethod => 'btree' },
+{ amopfamily => 'btree/newtype_ops', amoplefttype => 'newtype', amoprighttype => 'newtype',
+  amopstrategy => '5', amopopr => '>(newtype,newtype)', amopmethod => 'btree' },
+
 ]

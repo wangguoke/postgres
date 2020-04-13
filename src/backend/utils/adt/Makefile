@@ -63,6 +63,7 @@ OBJS = \
 	network_gist.o \
 	network_selfuncs.o \
 	network_spgist.o \
+	newtype.o	\
 	numeric.o \
 	numutils.o \
 	oid.o \

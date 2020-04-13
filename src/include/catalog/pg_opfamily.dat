@@ -226,5 +226,7 @@
   opfmethod => 'spgist', opfname => 'box_ops' },
 { oid => '5008',
   opfmethod => 'spgist', opfname => 'poly_ops' },
+{ oid => '567',
+  opfmethod => 'btree', opfname => 'newtype_ops' },
 
 ]

@@ -1305,4 +1305,7 @@
 { amprocfamily => 'brin/box_inclusion_ops', amproclefttype => 'box',
   amprocrighttype => 'box', amprocnum => '13', amproc => 'box_contain' },
 
+{ amprocfamily => 'btree/newtype_ops', amproclefttype => 'newtype',
+  amprocrighttype => 'newtype', amprocnum => '1', amproc => 'btnewtypecmp' },
+
 ]

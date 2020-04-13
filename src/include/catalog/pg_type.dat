@@ -621,4 +621,10 @@
   typoutput => 'anycompatiblerange_out', typreceive => '-', typsend => '-',
   typalign => 'd', typstorage => 'x' },
 
+{ oid => '564', array_type_oid => '565',
+  descr => '~18 digit integer, 8-byte storage',
+  typname => 'newtype', typlen => '8', typbyval => 't',
+  typcategory => 'N', typinput => 'newtypein', typoutput => 'newtypeout',
+  typreceive => 'newtyperecv', typsend => 'newtypesend', typalign => 'd' },
+
 ]

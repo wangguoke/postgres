@@ -150,7 +150,9 @@ static const struct typinfo TypInfo[] = {
 	{"_char", 1002, CHAROID, -1, false, TYPALIGN_INT, TYPSTORAGE_EXTENDED, InvalidOid,
 	F_ARRAY_IN, F_ARRAY_OUT},
 	{"_aclitem", 1034, ACLITEMOID, -1, false, TYPALIGN_INT, TYPSTORAGE_EXTENDED, InvalidOid,
-	F_ARRAY_IN, F_ARRAY_OUT}
+	F_ARRAY_IN, F_ARRAY_OUT},
+	{"newtype", NEWTYPEOID, 0, 8, false, TYPALIGN_INT, TYPSTORAGE_PLAIN, InvalidOid,
+	F_NEWTYPEIN, F_NEWTYPEOUT}
 };
 
 static const int n_types = sizeof(TypInfo) / sizeof(struct typinfo);
